@@ -4,6 +4,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 import java.util.ArrayList;
 
@@ -32,5 +34,6 @@ public class MainActivity extends AppCompatActivity {
 
         //Ste the adapter on the ListView so the list can be populated in the user interface
         listView.setAdapter(adapter);
+
     }
 }
