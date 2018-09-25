@@ -71,7 +71,7 @@ public final class QueryUtils {
 
             }
 
-
+            //Convert from UNIX time to normal time format
             long timeInMilliseconds = 1454124312220L;
             Date dateObject = new Date(timeInMilliseconds);
             SimpleDateFormat dateFormatter = new SimpleDateFormat("MMM DD, yyyy");
